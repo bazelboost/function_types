@@ -1,0 +1,7 @@
+version: "1"
+rules:
+- base: develop
+  upstream: boostorg:function_types
+  mergeMethod: rebase
+  conflictReviewers:
+  - zaucy
